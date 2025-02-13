@@ -11,7 +11,7 @@ function setTheme(theme) {
     // Update header image based on theme
     const headerImage = document.querySelector('.header-image');
     if (headerImage) {
-        headerImage.src = theme === 'dark' ? 'images/dark-header.png' : 'images/light-header2.png';
+        headerImage.src = theme === 'dark' ? 'images/light-header2.png' : 'images/light-header2.png';
     }
     
     // Update button states
