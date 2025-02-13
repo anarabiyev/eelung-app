@@ -1,0 +1,288 @@
+/* Dark theme color variables */
+:root {
+    --primary-color: #60a5fa;
+    --primary-hover: #3b82f6;
+    --dark-bg-gradient-start: #1a1625;
+    --dark-bg-gradient-end: #13111d;
+    --dark-bg-gradient-even-start: #1d1828;
+    --dark-bg-gradient-even-end: #15131f;
+    --dark-border: #2a2833;
+    --dark-text: #d4d3da;
+    --dark-hover: #2a2833;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark theme specific styles - all scoped under body.dark-theme */
+body.dark-theme {
+    background-color: var(--dark-bg-gradient-start);
+    color: var(--dark-text);
+}
+
+body.dark-theme {
+    background-color: var(--dark-bg-gradient-start);
+    color: var(--dark-text);
+    background-image: url('images/background_plain.png');
+}
+
+/* Sidebar styles */
+body.dark-theme .filters-sidebar {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+    border-right-color: var(--dark-border);
+}
+
+body.dark-theme .filter-group {
+    border-bottom-color: var(--dark-border);
+}
+
+/* Text colors */
+body.dark-theme .filters-sidebar h3,
+body.dark-theme .filters-sidebar .radio-group label,
+body.dark-theme .filters-sidebar .radio-group input[type="radio"]:checked + label,
+body.dark-theme .filters-sidebar .clear-filters-btn,
+body.dark-theme .results-count,
+body.dark-theme #results-count,
+body.dark-theme #people-table th,
+body.dark-theme #people-table td,
+body.dark-theme .dropdown-filter label {
+    color: var(--dark-text) !important;
+}
+
+/* Radio button states */
+body.dark-theme .radio-group label:hover {
+    background-color: rgba(55, 65, 81, 0.5);
+}
+
+body.dark-theme .radio-group label:before {
+    border: 2px solid #4a4a5e;
+    background-color: transparent;
+}
+
+body.dark-theme .radio-group input[type="radio"]:checked + label {
+    background-color: var(--dark-hover);
+}
+
+body.dark-theme .radio-group input[type="radio"]:checked + label:before {
+    border-color: #09E8DF;
+    background-color: transparent;
+}
+
+body.dark-theme .radio-group input[type="radio"]:checked + label:after {
+    background-color: #09E8DF;
+    opacity: 1;
+}
+
+/* Clear filters button */
+body.dark-theme .clear-filters-btn {
+    background: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+    color: var(--dark-text);
+}
+
+body.dark-theme .clear-filters-btn:hover {
+    background: var(--dark-hover);
+    border-color: var(--dark-text);
+}
+
+/* Main content sections */
+body.dark-theme .top-section,
+body.dark-theme .table-container,
+body.dark-theme .segmentation-container {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%) !important;
+    border-color: var(--dark-border);
+}
+
+/* Table styles */
+body.dark-theme #people-table thead {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%) !important;
+}
+
+body.dark-theme #people-table tbody tr {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%) !important;
+}
+
+body.dark-theme #people-table tbody tr:nth-child(even) {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-even-start) 0%, var(--dark-bg-gradient-even-end) 100%) !important;
+}
+
+body.dark-theme #people-table tbody tr:hover {
+    background: var(--dark-hover) !important;
+}
+
+body.dark-theme #people-table th,
+body.dark-theme #people-table td {
+    border-color: var(--dark-border);
+}
+
+/* Dropdown styling */
+body.dark-theme .dropdown-filter select,
+body.dark-theme .dropdown-toggle {
+    background-color: var(--dark-bg-gradient-start);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .dropdown-filter select:hover,
+body.dark-theme .dropdown-toggle:hover,
+body.dark-theme .dropdown-filter select:focus,
+body.dark-theme .dropdown-toggle:focus {
+    background-color: var(--dark-hover);
+    border-color: #09E8DF;
+}
+
+body.dark-theme .dropdown-menu {
+    background-color: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .dropdown-item {
+    color: var(--dark-text);
+}
+
+body.dark-theme .dropdown-item:hover {
+    background-color: var(--dark-hover);
+}
+
+body.dark-theme .dropdown-item:hover label {
+    color: #09E8DF;
+}
+
+/* Headers and labels */
+body.dark-theme .filters-sidebar h3,
+body.dark-theme .dropdown-filter label,
+body.dark-theme #people-table th,
+body.dark-theme .matrix-title {
+    color: #09E8DF !important;
+}
+
+/* Tooltip styles */
+body.dark-theme .tooltip {
+    background: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+    color: var(--dark-text);
+}
+
+body.dark-theme .tooltip-content {
+    color: var(--dark-text);
+}
+
+body.dark-theme .tooltip-content .tooltip-row {
+    color: var(--dark-text);
+}
+
+body.dark-theme .tooltip-content .tooltip-row:nth-child(even) {
+    background-color: var(--dark-bg-gradient-even-start);
+}
+
+body.dark-theme .tooltip-content .tooltip-row.highlighted-row {
+    background-color: #2D3748 !important;
+    color: #09E8DF;
+}
+
+body.dark-theme .tooltip-content strong {
+    color: #09E8DF;
+}
+
+body.dark-theme .tooltip-container:hover img {
+    border-color: #09E8DF;
+}
+
+/* Matrix view styles */
+body.dark-theme .matrix-cell {
+    background: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .matrix-cell .person-icon {
+    background-color: #b1b939;
+}
+
+body.dark-theme .experience-headers .header,
+body.dark-theme .relevance-headers .header {
+    color: var(--dark-text);
+}
+
+/* Theme toggle button styles */
+body.dark-theme .theme-toggle {
+    background: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+    background: #35a8a8;
+}
+
+body.dark-theme .theme-toggle.active {
+    border-color: #09E8DF;
+    background: var(--dark-hover);
+    background: #35a8a8;
+}
+
+/* Circle button styles in dark mode */
+body.dark-theme .circle-button {
+    background: var(--dark-bg-gradient-start);
+    background: #35a8a8;
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .circle-button:hover {
+    border-color: #09E8DF;
+}
+
+body.dark-theme .circle-button.active {
+    background: var(--dark-hover);
+    border-color: #09E8DF;
+}
+
+body.dark-theme .dropdown-item:hover {
+    background-color: var(--dark-hover);
+}
+
+body.dark-theme .dropdown-item:hover label {
+    color: #09E8DF;  /* Matches our accent color in dark mode */
+}
+
+/* Ensure dropdown menu has correct background in dark mode */
+body.dark-theme .dropdown-menu {
+    background-color: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+}
+
+/* Ensure dropdown items have correct text color in dark mode */
+body.dark-theme .dropdown-item label {
+    color: var(--dark-text);
+}
+
+body.dark-theme .dropdown-filter select,
+body.dark-theme .dropdown-toggle,
+body.dark-theme .dropdown-menu,
+body.dark-theme .dropdown-item {
+    transition: background-color 0.2s ease,
+                border-color 0.2s ease,
+                color 0.2s ease;
+}
+
+/* Handle gradient transitions in dark theme */
+body.dark-theme .filters-sidebar,
+body.dark-theme .top-section,
+body.dark-theme .table-container,
+body.dark-theme #people-table thead,
+body.dark-theme #people-table tbody tr {
+    transition: all 0.2s ease,
+                background-image 0.2s ease;
+}
+
+/* Add these styles to your dark-theme-styles.css file */
+.header-image {
+    transition: all 0.2s ease;
+}
+
+body.dark-theme .header-image {
+    filter: brightness(0.9); /* Optional: slightly dim the header in dark mode */
+}
+
+body.dark-theme .theme-toggle.active {
+    background: #a89d35;  /* This line sets the active background color */
+}
+
+body.dark-theme .circle-button.active {
+    background: #2a2c0e;  /* This uses the variable --dark-hover which is set to #2a2833 */
+}
+

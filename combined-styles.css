@@ -1,0 +1,1749 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --text: #334155;
+    --text-light: #64748b;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background);
+    color: var(--text);
+    
+}
+
+/* Layout */
+.dashboard {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    gap: 24px;
+    padding: 0 12px;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+/* View Containers */
+.view-container {
+    display: none;
+    width: 100%;
+}
+
+.view-container.active {
+    display: block;
+}
+
+/* Sidebar */
+.filters-sidebar {
+    width: 220px;
+    padding: 16px 32px;
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    border-right: 1px solid #ffc0cb;
+    position: sticky;
+    top: 30px;
+    overflow-y: auto;
+    align-self: flex-start;
+    max-height: 100vh;
+    border-radius: var(--radius);
+    margin-top: 24px;
+}
+
+/* Filter Groups */
+.filter-group {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e3e7ff;
+}
+
+.filter-group h3 {
+    margin-bottom: 12px;
+    color: #333366;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Radio Groups */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    font-size: 11px;
+    color: #444;
+    user-select: none;
+}
+
+.radio-group label:hover {
+    background-color: rgba(227, 231, 255, 0.5);
+}
+
+.radio-group input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.radio-group label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    border: 2px solid #b8b8d1;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.radio-group label:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333366;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: #333366;
+    background-color: rgba(227, 231, 255, 0.8);
+}
+
+.radio-group input[type="radio"]:checked + label:before {
+    border-color: #333366;
+}
+
+.radio-group input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Ensures consistent spacing */
+}
+
+/* Top Section */
+.top-section {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    padding: 20px;
+    border: 0.5px solid #ffc0cb;
+    position: sticky;
+    top: 30px;
+    z-index: 10;
+    margin: 24px 12px 0;
+    width: calc(100% - 24px);
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.results-count {
+    color: #666;
+    font-size: 14px;
+}
+
+#results-count {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+}
+
+.circle-button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.circle-button.active {
+    background-color: #e3e7ff;
+    border-color: #333366;
+}
+
+.circle-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* Filters */
+.top-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.dropdown-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dropdown-filter label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.dropdown-filter select {
+    padding: 8px 32px 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%23666' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    min-width: 140px;
+    transition: all 0.2s ease;
+}
+
+/* Table Styles */
+.table-container {
+    padding: 20px;
+    background: white;
+    border-radius: var(--radius);
+    margin: 0 20px; /* Remove top/bottom margin, keep left/right */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Prevents container from shrinking */
+}
+
+/* Table Wrapper Adjustments */
+.table-wrapper {
+    max-height: calc(100vh - 280px); /* Adjusted to account for consistent spacing */
+    overflow-y: auto;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    width: 100%;
+}
+
+#people-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#people-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#people-table th {
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+}
+
+#people-table td {
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--text);
+}
+
+#people-table tbody tr {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+}
+
+#people-table tbody tr:nth-child(even) {
+    background: linear-gradient(135deg, #e9ecff 0%, #e3e7ff 100%);
+}
+
+#people-table tbody tr:hover {
+    background: #d1d5ff;
+}
+
+/* Matrix Styles */
+.segmentation-container {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.matrix-title {
+    color: #333366;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.matrix-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-headers {
+    display: grid;
+    grid-template-columns: 80px repeat(3, 1fr);
+    text-align: center;
+    font-weight: bold;
+    color: #333366;
+}
+
+.matrix-grid {
+    display: flex;
+}
+
+.relevance-headers {
+    display: grid;
+    grid-template-rows: repeat(4, 120px);
+    width: 80px;
+}
+
+.relevance-headers .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: bold;
+    color: #333366;
+}
+
+.matrix-cells {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 120px);
+    flex-grow: 1;
+    gap: 2px;
+    background: #f0f0f0;
+}
+
+.matrix-cell {
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-content: flex-start;
+}
+
+.person-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.person-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Clear Filters Button */
+.clear-filters-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 11px;
+    color: #333366;
+    transition: all 0.2s ease;
+    margin: 0 0;
+    font-weight: 500;
+}
+
+.clear-filters-btn:hover {
+    background: #e3e7ff;
+    border-color: #333366;
+}
+
+/* Tooltips */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    box-sizing: content-box;
+}
+
+.tooltip-container:hover img {
+    border-color: #ffc0cb;
+    transform: scale(1.1);
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px;
+    box-shadow: var(--shadow-md);
+    min-width: 200px;
+    top: 100%;
+    margin-top: 5px;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip-container.last-column .tooltip {
+    left: auto;
+    right: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 42, 78, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background-color: #1b2a4e;
+    margin: 5% auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 0;
+    color: white;
+    text-align: left;
+}
+
+.modal-logo {
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.purpose-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 20px;
+}
+
+.modal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-list li {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.accept-btn {
+    background-color: #dc1e32;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: fit-content;
+}
+
+.accept-btn:hover {
+    background-color: #b01828;
+}
+
+/* Custom Country Dropdown */
+.custom-dropdown {
+    position: relative;
+    width: 140px;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    padding: 8px 32px 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-top: 4px;
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.dropdown-item input[type="checkbox"] {
+    margin: 0;
+}
+
+.dropdown-item label {
+    font-size: 14px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+/* Custom scrollbar styles */
+.dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Add these styles to your existing CSS file */
+.custom-dropdown {
+    position: relative;
+    width: 140px;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    padding: 8px 32px 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-top: 4px;
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.dropdown-item input[type="checkbox"] {
+    margin: 0;
+}
+
+.dropdown-item label {
+    font-size: 14px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+/* Custom scrollbar styles */
+.dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Tooltip styles */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    box-sizing: content-box;
+}
+
+.tooltip-container:hover img {
+    border-color: #ffc0cb;
+    transform: scale(1.1);
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px;
+    box-shadow: var(--shadow-md);
+    min-width: 200px;
+    top: 100%;
+    margin-top: 5px;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip-container.last-column .tooltip {
+    left: auto;
+    right: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+}
+
+.tooltip-content .tooltip-row {
+    padding: 4px 8px;
+}
+
+.tooltip-content .tooltip-row:nth-child(even) {
+    background-color: #f3f5fc;
+}
+
+.tooltip-content .tooltip-row.highlighted-row {
+    background-color: #ffc0cb !important;
+}
+
+/* Matrix specific styles */
+.matrix-cell .person-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #333366;
+    transition: transform 0.2s;
+}
+
+.matrix-cell .person-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 42, 78, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background-color: #1b2a4e;
+    margin: 5% auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 0;
+    color: white;
+    text-align: left;
+}
+
+.modal-logo {
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.purpose-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 20px;
+}
+
+.modal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-list li {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.modal-list li:last-child {
+    border-bottom: none;
+}
+
+.accept-btn {
+    background-color: #dc1e32;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: fit-content;
+}
+
+.accept-btn:hover {
+    background-color: #b01828;
+}
+
+/* View container visibility styles */
+.view-container {
+    display: none;
+    width: 100%;
+}
+
+.view-container.active {
+    display: block;
+}
+
+/* Active view button styles */
+.circle-button.active {
+    background-color: #e3e7ff;
+    border-color: #333366;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .filters-sidebar {
+        width: 100%;
+        max-height: none;
+        margin-bottom: 24px;
+    }
+
+    .top-filters {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .dropdown-filter {
+        width: calc(50% - 8px);
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-filter {
+        width: 100%;
+    }
+
+    .modal-content {
+        margin: 10% auto;
+        padding: 20px;
+    }
+
+    .matrix-wrapper {
+        overflow-x: auto;
+    }
+}
+
+/* Update the circle button styles to be consistent */
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+}
+
+.circle-button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.circle-button.active {
+    background-color: #e3e7ff;
+    border-color: #333366;
+}
+
+.circle-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* Fix table header gradient */
+#people-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+}
+
+#people-table th {
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+    background: none; /* Remove individual column gradients */
+}
+
+/* Update matrix person icon styles */
+.matrix-cell .person-icon {
+    width: 24px;
+    height: 24px;
+    background: url('images/person-icon.png') no-repeat center center;
+    background-size: contain;
+    transition: transform 0.2s;
+}
+
+.matrix-cell .person-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Add to combined-styles.css */
+.top-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.theme-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+/* Theme toggle specific styles */
+.theme-toggle {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.theme-toggle.active {
+    opacity: 1;
+}
+
+/* Dark theme specific overrides */
+body.dark-theme {
+    /* This class will trigger dark theme styles */
+}
+
+/* Add these styles to combined-styles.css */
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.theme-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.theme-toggle {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.theme-toggle.active {
+    opacity: 1;
+}
+
+/* Update the existing circle-button styles */
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+}
+
+.circle-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* Dark theme specific overrides */
+body.dark-theme .theme-toggle {
+    background: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+}
+
+body.dark-theme .theme-toggle.active {
+    border-color: #09E8DF;
+    background: var(--dark-hover);
+}
+
+body.dark-theme .dropdown-item:hover {
+    background-color: var(--dark-hover);
+}
+
+body.dark-theme .dropdown-item:hover label {
+    color: #09E8DF;  /* Matches our accent color in dark mode */
+}
+
+/* Ensure dropdown menu has correct background in dark mode */
+body.dark-theme .dropdown-menu {
+    background-color: var(--dark-bg-gradient-start);
+    border-color: var(--dark-border);
+}
+
+/* Ensure dropdown items have correct text color in dark mode */
+body.dark-theme .dropdown-item label {
+    color: var(--dark-text);
+}
+
+.dropdown-filter select,
+.dropdown-toggle,
+.dropdown-menu,
+.dropdown-item,
+.top-section,
+.filters-sidebar,
+.table-container,
+#people-table thead,
+#people-table tbody tr,
+.tooltip,
+.matrix-cell {
+    transition: background-color 0.2s ease,
+                background 0.2s ease,
+                border-color 0.2s ease,
+                color 0.2s ease;
+}
+
+/* For elements with gradients, add this specific transition */
+.filters-sidebar,
+.top-section,
+.table-container,
+#people-table thead,
+#people-table tbody tr {
+    transition: all 0.2s ease,
+                background-image 0.2s ease;
+}.dropdown-filter select,
+.dropdown-toggle,
+.dropdown-menu,
+.dropdown-item,
+.top-section,
+.filters-sidebar,
+.table-container,
+#people-table thead,
+#people-table tbody tr,
+.tooltip,
+.matrix-cell {
+    transition: background-color 0.2s ease,
+                background 0.2s ease,
+                border-color 0.2s ease,
+                color 0.2s ease;
+}
+
+/* For elements with gradients, add this specific transition */
+.filters-sidebar,
+.top-section,
+.table-container,
+#people-table thead,
+#people-table tbody tr {
+    transition: all 0.2s ease,
+                background-image 0.2s ease;
+}
+
+/* Reduce left sidebar width and padding */
+.filters-sidebar {
+    width: 180px;  /* Reduced from 220px */
+    padding: 12px 16px;  /* Reduced from 16px 32px */
+}
+
+/* Make sidebar content more compact */
+.filter-group {
+    margin-bottom: 12px;  /* Reduced from 16px */
+}
+
+.filter-group h3 {
+    margin-bottom: 8px;  /* Reduced from 12px */
+    font-size: 12px;  /* Reduced from 14px */
+}
+
+.radio-group {
+    gap: 4px;  /* Reduced from 8px */
+    margin-bottom: 12px;  /* Reduced from 16px */
+}
+
+.radio-group label {
+    padding-left: 18px;  /* Reduced from 22px */
+    font-size: 10px;  /* Reduced from 11px */
+}
+
+/* Make top section more compact */
+.top-section {
+    padding: 12px;  /* Reduced from 20px */
+    margin: 12px 12px 0;  /* Reduced top margin */
+}
+
+.top-header {
+    gap: 8px;  /* Reduced from 15px */
+    margin-bottom: 8px;  /* Reduced from 15px */
+}
+
+/* Reduce dropdown sizes */
+.dropdown-filter {
+    min-width: 120px;  /* Reduced from 140px */
+}
+
+.dropdown-filter select,
+.dropdown-toggle {
+    padding: 6px 24px 6px 8px;  /* Reduced from 8px 32px 8px 12px */
+    font-size: 12px;  /* Reduced from 14px */
+}
+
+.dropdown-filter label {
+    font-size: 11px;  /* Reduced from 12px */
+}
+
+/* Adjust table container spacing */
+.table-container {
+    padding: 12px;  /* Reduced from 20px */
+    margin: 0 12px;  /* Reduced from 0 20px */
+}
+
+/* Update table wrapper height calculation */
+.table-wrapper {
+    max-height: calc(100vh - 220px);  /* Increased space for table by reducing from 280px */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .filters-sidebar {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 12px;  /* Reduced from 24px */
+    }
+    
+    .dropdown-filter {
+        width: calc(50% - 6px);  /* Adjusted for smaller gap */
+    }
+}
+
+/* Previous compact styles remain the same */
+
+/* Compact disclaimer modal styles */
+.modal-content {
+    margin: 2% auto;  /* Reduced from 5% */
+    padding: 24px;    /* Reduced from 40px */
+    width: 70%;       /* Reduced from 90% */
+    max-width: 600px; /* Reduced from 800px */
+}
+
+.modal-logo {
+    width: 100px;    /* Reduced from 120px */
+    margin-bottom: 20px; /* Reduced from 40px */
+}
+
+.purpose-text {
+    font-size: 14px;  /* Reduced from 16px */
+    margin-bottom: 20px; /* Reduced from 30px */
+    padding-bottom: 12px; /* Reduced from 20px */
+}
+
+.modal-list {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-list li {
+    font-size: 14px;     /* Reduced from 16px */
+    margin-bottom: 12px;  /* Reduced from 20px */
+    padding-bottom: 12px; /* Reduced from 20px */
+    line-height: 1.4;    /* Reduced from 1.5 */
+}
+
+.accept-btn {
+    padding: 8px 16px;   /* Reduced from 12px 24px */
+    font-size: 14px;     /* Reduced from 16px */
+    margin: 16px auto 0; /* Reduced from 20px */
+}
+
+/* Mobile responsive adjustment */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 5% auto;
+        padding: 16px;
+        width: 85%;
+    }
+}
+
+/* Previous styles remain the same */
+
+/* Adjust top section to maintain spacing */
+.top-section {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    padding: 12px;
+    position: sticky;
+    top: 30px;
+    z-index: 10;
+    margin: 12px 12px 0;
+    width: calc(100% - 24px);
+}
+
+/* Add padding to main content to ensure spacing */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px; /* Add padding at bottom */
+}
+
+/* Modify table container to maintain consistent gap */
+.table-container {
+    padding: 12px;
+    margin: 24px 12px 0; /* Add top margin to create consistent space */
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+/* Adjust table wrapper to account for new spacing */
+.table-wrapper {
+    max-height: calc(100vh - 240px); /* Adjusted to account for consistent spacing */
+    overflow-y: auto;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    width: 100%;
+}
+
+/* Dark theme adjustments */
+body.dark-theme .table-container {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+}
+
+/* Update left sidebar to match top header sticky behavior */
+.filters-sidebar {
+    width: 180px;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    border-right: 1px solid #ffc0cb;
+    position: sticky;
+    top: 30px; /* Same top value as top-section */
+    height: calc(100vh - 30px); /* Viewport height minus top offset */
+    overflow-y: auto;
+    margin-top: 24px;
+    border-radius: var(--radius);
+}
+
+/* Ensure dashboard container allows for sticky positioning */
+.dashboard {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    gap: 24px;
+    padding: 0 12px;
+    position: relative; /* Add this to create positioning context */
+}
+
+/* Maintain scrollbar styling for sidebar */
+.filters-sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filters-sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.filters-sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.filters-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Dark theme adjustments */
+body.dark-theme .filters-sidebar {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+    border-right-color: var(--dark-border);
+}
+
+body.dark-theme .filters-sidebar::-webkit-scrollbar-track {
+    background: var(--dark-bg-gradient-start);
+}
+
+body.dark-theme .filters-sidebar::-webkit-scrollbar-thumb {
+    background: var(--dark-hover);
+}
+
+body.dark-theme .filters-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #09E8DF;
+}
+
+/* Maintain responsive behavior */
+@media (max-width: 1024px) {
+    .filters-sidebar {
+        position: relative; /* Remove sticky on mobile */
+        width: 100%;
+        height: auto;
+        top: 0;
+        margin-bottom: 12px;
+    }
+}
+
+/* Synchronize top section and sidebar positioning */
+.filters-sidebar {
+    width: 180px;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    border-right: 1px solid #ffc0cb;
+    position: sticky;
+    top: 30px;
+    height: calc(100vh - 30px);
+    overflow-y: auto;
+    margin-top: 0; /* Remove margin to match top section */
+    border-radius: var(--radius);
+}
+
+.top-section {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e7ff 100%);
+    padding: 12px;
+    position: sticky;
+    top: 30px;
+    z-index: 10;
+    margin: 0 12px 0; /* Remove top margin to match sidebar */
+    width: calc(100% - 24px);
+}
+
+/* Add padding to dashboard to create initial space */
+.dashboard {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    gap: 24px;
+    padding: 24px 12px 0; /* Add top padding to create space for both elements */
+    position: relative;
+}
+
+/* Maintain table spacing */
+.table-container {
+    padding: 12px;
+    margin: 24px 12px 0;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .filters-sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 0;
+        margin-bottom: 12px;
+    }
+    
+    .dashboard {
+        padding-top: 12px; /* Reduce padding on mobile */
+    }
+}
+
+
+
+/* Update the matrix view container to prevent sticky behavior */
+#matrix-view.view-container {
+    position: relative; /* Reset any inherited positioning */
+    margin-top: 24px; /* Add consistent top margin */
+}
+
+.segmentation-container {
+    position: relative; /* Ensure no sticky behavior */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin: 0 20px; /* Remove top/bottom margin, keep left/right */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure dark theme styles are preserved */
+body.dark-theme .segmentation-container {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+}
+
+/* Update matrix wrapper to have a fixed height */
+.matrix-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: calc(100vh - 280px); /* Match table view height */
+    overflow-y: auto; /* Enable scrolling within the matrix */
+}
+
+/* Add scrollbar styling for consistency */
+.matrix-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.matrix-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.matrix-wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.matrix-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Update matrix view container */
+#matrix-view.view-container {
+    position: relative;
+    margin-top: 24px;
+}
+
+.segmentation-container {
+    position: relative;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    margin: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Compact matrix layout */
+.matrix-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.matrix-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #333366;
+}
+
+.experience-headers {
+    display: grid;
+    grid-template-columns: 60px repeat(3, 1fr);
+    text-align: center;
+    font-weight: bold;
+    color: #333366;
+    font-size: 14px;
+}
+
+.matrix-grid {
+    display: flex;
+}
+
+.relevance-headers {
+    display: grid;
+    grid-template-rows: repeat(4, 80px); /* Reduced height */
+    width: 60px; /* Reduced width */
+}
+
+.relevance-headers .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: bold;
+    color: #333366;
+    font-size: 14px;
+}
+
+.matrix-cells {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 80px); /* Reduced height */
+    flex-grow: 1;
+    gap: 2px;
+    background: #f0f0f0;
+}
+
+.matrix-cell {
+    background: white;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-content: flex-start;
+}
+
+.person-icon {
+    width: 20px; /* Reduced size */
+    height: 20px; /* Reduced size */
+    border-radius: 50%;
+    background-color: #333366;
+    transition: transform 0.2s;
+}
+
+.person-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Dark theme compatibility */
+body.dark-theme .segmentation-container {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+}
+
+body.dark-theme .matrix-title,
+body.dark-theme .experience-headers,
+body.dark-theme .relevance-headers .header {
+    color: var(--dark-text);
+}
+
+body.dark-theme .matrix-cell {
+    background: var(--dark-bg-gradient-start);
+}
+
+body.dark-theme .person-icon {
+    background-color: #09E8DF;
+}
+
+/* Dark theme scrollbar */
+body.dark-theme .matrix-wrapper::-webkit-scrollbar-track {
+    background: var(--dark-bg-gradient-start);
+}
+
+body.dark-theme .matrix-wrapper::-webkit-scrollbar-thumb {
+    background: var(--dark-hover);
+}
+
+body.dark-theme .matrix-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #09E8DF;
+}
+
+/* Update matrix view container */
+#matrix-view.view-container {
+    position: relative;
+    margin-top: 24px;
+}
+
+.segmentation-container {
+    position: relative;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    margin: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Compact matrix layout */
+.matrix-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.matrix-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #333366;
+}
+
+.experience-headers {
+    display: grid;
+    grid-template-columns: 60px repeat(3, 1fr);
+    text-align: center;
+    font-weight: bold;
+    color: #333366;
+    font-size: 14px;
+}
+
+.matrix-grid {
+    display: flex;
+}
+
+.relevance-headers {
+    display: grid;
+    grid-template-rows: repeat(4, 80px); /* Reduced height */
+    width: 60px; /* Reduced width */
+}
+
+.relevance-headers .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: bold;
+    color: #333366;
+    font-size: 14px;
+}
+
+.matrix-cells {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 80px); /* Reduced height */
+    flex-grow: 1;
+    gap: 2px;
+    background: #f0f0f0;
+}
+
+.matrix-cell {
+    background: white;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-content: flex-start;
+}
+
+.person-icon {
+    width: 20px; /* Reduced size */
+    height: 20px; /* Reduced size */
+    border-radius: 50%;
+    background-color: #333366;
+    transition: transform 0.2s;
+}
+
+.person-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Dark theme compatibility */
+body.dark-theme .segmentation-container {
+    background: linear-gradient(135deg, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-end) 100%);
+}
+
+body.dark-theme .matrix-title,
+body.dark-theme .experience-headers,
+body.dark-theme .relevance-headers .header {
+    color: var(--dark-text);
+}
+
+body.dark-theme .matrix-cell {
+    background: var(--dark-bg-gradient-start);
+}
+
+body.dark-theme .person-icon {
+    background-color: #09E8DF;
+}
+
+.matrix-cell .person-icon {
+    background-color: #d2e6e5;
+}

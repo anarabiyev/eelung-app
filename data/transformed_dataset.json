@@ -1,0 +1,3131 @@
+{
+    "people": [
+        {
+            "first_name": "Michael",
+            "last_name": "Brown",
+            "country": "BR",
+            "institution": "CA Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Global Congress"
+            ],
+            "cme_event": [
+                "Research Conference"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial OV-541",
+                        "Test Duble"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial KZ-375", "Test Duble"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial XM-584"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper MO-882"
+                    ],
+                    "Sac-TMT": [
+                        "Review HR-567"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Global Congress",
+                    "Educational Workshop"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Anar",
+            "last_name": "Sato",
+            "country": "IN",
+            "institution": "JP Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Strategic Session",
+                "Scientific Symposium",
+                "ESMO 2024"
+            ],
+            "cme_event": [
+                "Clinical Summit"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Regional Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Paper OJ-805"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication PR-881"
+                    ],
+                    "DATO-DXd": [
+                        "Publication YL-284"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Paper GW-554"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review XA-778"
+                    ],
+                    "SG": [
+                        "Paper SE-944"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication BF-629"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Expert Forum"
+                ]
+            }
+        },
+        {
+            "first_name": "Yuki",
+            "last_name": "Chen",
+            "country": "IN",
+            "institution": "FR Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [],
+            "cme_event": [
+                "Scientific Symposium"
+            ],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review ID-986"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial HT-843"
+                    ],
+                    "SG": [
+                        "Trial NY-348"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Clinical Summit"
+                ],
+                "competitor": [
+                    "Educational Workshop",
+                    "Annual Meeting 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Priya",
+            "last_name": "Lee",
+            "country": "US",
+            "institution": "CN Cancer Research Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Virtual Meeting"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Research Conference",
+                "Annual Meeting 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication FT-949"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication VN-808"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication LV-501"
+                    ],
+                    "Ivonescimab": [
+                        "Paper XI-292"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper IR-985"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper GI-945"
+                    ],
+                    "DATO-DXd": [
+                        "Study TX-299"
+                    ],
+                    "I-DXd": [
+                        "Study GX-374"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Annual Meeting 2024"
+                ],
+                "competitor": [
+                    "WCLC 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Juan",
+            "last_name": "Silva",
+            "country": "CN",
+            "institution": "US Cancer Research Center",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [
+                "ASCO 2024"
+            ],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Regional Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Review KH-191"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial LZ-638"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication ZO-685"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial UO-964"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Paper VA-656"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Ali",
+            "last_name": "Garcia",
+            "country": "CA",
+            "institution": "CN University Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Publication TI-591"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Paper FR-101"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper ZR-581"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Trial DK-646"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study WQ-655"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Virtual Meeting",
+                    "Global Congress"
+                ]
+            }
+        },
+        {
+            "first_name": "Juan",
+            "last_name": "Sato",
+            "country": "IN",
+            "institution": "KR Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Educational Workshop",
+                "Research Conference",
+                "ASCO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication FY-365"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review BQ-255"
+                    ],
+                    "SG": [
+                        "Publication HP-811"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Annual Meeting 2024"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Lisa",
+            "last_name": "Kumar",
+            "country": "BR",
+            "institution": "CA Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Clinical Summit",
+                "Annual Meeting 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial KT-196"
+                    ],
+                    "SG": [
+                        "Study WJ-512"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication XY-639"
+                    ],
+                    "DATO-DXd": [
+                        "Paper VJ-979"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper KY-895"
+                    ],
+                    "Sac-TMT": [
+                        "Publication HN-806"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication JL-224"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Review UZ-670"
+                    ],
+                    "DATO-DXd": [
+                        "Review XQ-710"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication ES-662"
+                    ],
+                    "Sac-TMT": [
+                        "Trial RY-869"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Scientific Symposium",
+                    "Annual Meeting 2024"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Omar",
+            "last_name": "Zhang",
+            "country": "KR",
+            "institution": "CN Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Annual Meeting 2024",
+                "Investigator Meeting"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Research Conference",
+                "Strategic Session"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial ZD-124"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review KM-472"
+                    ],
+                    "Sac-TMT": [
+                        "Paper DJ-869"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial BQ-296"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication AW-114"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Annual Meeting 2024",
+                    "Expert Forum"
+                ]
+            }
+        },
+        {
+            "first_name": "Carlos",
+            "last_name": "Kumar",
+            "country": "JP",
+            "institution": "KR Cancer Research Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum",
+                "Educational Workshop",
+                "Annual Meeting 2024"
+            ],
+            "cme_event": [
+                "ASCO 2024",
+                "Global Congress"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Annual Meeting 2024",
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial IF-206"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper BJ-247"
+                    ],
+                    "DATO-DXd": [
+                        "Review UE-913"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study PN-557"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Study IJ-342"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Review LQ-906"
+                    ],
+                    "I-DXd": [
+                        "Study PD-137"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Paper SY-968"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Expert Forum"
+                ]
+            }
+        },
+        {
+            "first_name": "Sophie",
+            "last_name": "Ivanov",
+            "country": "AZ",
+            "institution": "IT University Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Global Congress",
+                "Regional Symposium"
+            ],
+            "cme_event": [
+                "Annual Meeting 2024"
+            ],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Scientific Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper WQ-228"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review CZ-920"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication XU-319"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review HA-753"
+                    ],
+                    "Sac-TMT": [
+                        "Publication RU-573"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Annual Meeting 2024"
+                ],
+                "competitor": [
+                    "ESMO 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Maria",
+            "last_name": "Patel",
+            "country": "UK",
+            "institution": "AU Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Annual Meeting 2024",
+                "ASCO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Regional Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study TK-556"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication WQ-307"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial YP-738"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Trial LL-441"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Strategic Session",
+                    "Expert Forum"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Carlos",
+            "last_name": "Silva",
+            "country": "FR",
+            "institution": "UK Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum",
+                "Clinical Summit"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "WCLC 2024",
+                "Scientific Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review AN-138"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study FI-284"
+                    ],
+                    "I-DXd": [
+                        "Paper RL-626"
+                    ],
+                    "Ivonescimab": [
+                        "Publication PP-463"
+                    ],
+                    "Sac-TMT": [
+                        "Study CW-343"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Study ET-429"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication FY-507"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Educational Workshop"
+                ],
+                "competitor": [
+                    "Strategic Session"
+                ]
+            }
+        },
+        {
+            "first_name": "Ali",
+            "last_name": "Lee",
+            "country": "KR",
+            "institution": "CN Cancer Research Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Strategic Session",
+                "Virtual Meeting",
+                "Research Conference"
+            ],
+            "cme_event": [
+                "Scientific Symposium",
+                "Research Conference"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "WCLC 2024",
+                "Regional Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review EF-226"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial QZ-536"
+                    ],
+                    "I-DXd": [
+                        "Publication OD-667"
+                    ],
+                    "Ivonescimab": [
+                        "Review IV-949"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication EV-285"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study MC-276"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Strategic Session"
+                ],
+                "competitor": [
+                    "Regional Symposium"
+                ]
+            }
+        },
+        {
+            "first_name": "Omar",
+            "last_name": "Lee",
+            "country": "BR",
+            "institution": "KR Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Virtual Meeting",
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Paper PC-413"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper TG-828"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper LJ-468"
+                    ],
+                    "SG": [
+                        "Trial DT-265"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study KC-548"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study UP-148"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Investigator Meeting"
+                ],
+                "competitor": [
+                    "Strategic Session",
+                    "WCLC 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Wei",
+            "last_name": "Patel",
+            "country": "KR",
+            "institution": "UK Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Global Congress",
+                "Investigator Meeting",
+                "Strategic Session"
+            ],
+            "cme_event": [
+                "Regional Symposium",
+                "Scientific Symposium"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial BT-754"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Paper WS-465"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Trial RS-630"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper HD-343"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Global Congress",
+                    "ESMO 2024"
+                ],
+                "competitor": [
+                    "ESMO 2024",
+                    "Strategic Session"
+                ]
+            }
+        },
+        {
+            "first_name": "Yuki",
+            "last_name": "Kumar",
+            "country": "CA",
+            "institution": "JP Cancer Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum",
+                "Annual Meeting 2024"
+            ],
+            "cme_event": [
+                "WCLC 2024",
+                "ESMO 2024"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Global Congress",
+                "Educational Workshop"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Study ZM-130"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial BV-867"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial WY-125"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication FK-597"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Regional Symposium",
+                    "ASCO 2024"
+                ],
+                "competitor": [
+                    "Research Conference"
+                ]
+            }
+        },
+        {
+            "first_name": "Maria",
+            "last_name": "Wang",
+            "country": "DE",
+            "institution": "ES Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Regional Symposium",
+                "Strategic Session",
+                "Research Conference"
+            ],
+            "cme_event": [
+                "Strategic Session",
+                "Scientific Symposium"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Virtual Meeting",
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial AR-169"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication VG-350"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Trial ZH-812"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Global Congress",
+                    "Expert Forum"
+                ],
+                "competitor": [
+                    "Clinical Summit"
+                ]
+            }
+        },
+        {
+            "first_name": "Sophie",
+            "last_name": "Anderson",
+            "country": "JP",
+            "institution": "ES Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Annual Meeting 2024",
+                "Clinical Summit"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "ESMO 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Publication TG-609"
+                    ],
+                    "I-DXd": [
+                        "Review DJ-889"
+                    ],
+                    "Ivonescimab": [
+                        "Paper ER-993"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper DB-646"
+                    ],
+                    "SG": [
+                        "Review IP-763"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper FR-250"
+                    ],
+                    "DATO-DXd": [
+                        "Trial LK-527"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review LX-757"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "ESMO 2024",
+                    "Expert Forum"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Juan",
+            "last_name": "Patel",
+            "country": "IT",
+            "institution": "US Medical Institute",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Investigator Meeting"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Regional Symposium",
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Trial WA-154"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Trial ZH-123"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review EE-561"
+                    ],
+                    "SG": [
+                        "Publication ST-812"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review YV-765"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Educational Workshop"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Lisa",
+            "last_name": "Chen",
+            "country": "AZ",
+            "institution": "IN Cancer Research Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper JA-950"
+                    ],
+                    "DATO-DXd": [
+                        "Publication GP-922"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper NQ-266"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial VB-308"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review GU-211"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Virtual Meeting"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Sarah",
+            "last_name": "Wang",
+            "country": "JP",
+            "institution": "FR Cancer Research Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Global Congress",
+                "Scientific Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial CK-531"
+                    ],
+                    "SG": [
+                        "Publication AI-178"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study KN-545"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Publication FT-544"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Paper UC-839"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Educational Workshop"
+                ],
+                "competitor": [
+                    "WCLC 2024",
+                    "Annual Meeting 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Yuki",
+            "last_name": "Smith",
+            "country": "KR",
+            "institution": "CN University Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [
+                "Investigator Meeting"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial KZ-141"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper ZL-926"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Trial OF-840"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review ED-276"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper PB-424"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Investigator Meeting"
+                ],
+                "competitor": [
+                    "Virtual Meeting",
+                    "Scientific Symposium"
+                ]
+            }
+        },
+        {
+            "first_name": "Carlos",
+            "last_name": "Brown",
+            "country": "IT",
+            "institution": "JP Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Scientific Symposium",
+                "Research Conference",
+                "ASCO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "WCLC 2024",
+                "Educational Workshop"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial ZZ-199"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication DI-345"
+                    ],
+                    "Sac-TMT": [
+                        "Trial OF-633"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial UB-627"
+                    ],
+                    "DATO-DXd": [
+                        "Review OK-946"
+                    ],
+                    "I-DXd": [
+                        "Study NE-886"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication IZ-433"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Expert Forum",
+                    "Clinical Summit"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "David",
+            "last_name": "Zhang",
+            "country": "AU",
+            "institution": "JP Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Expert Forum",
+                "Clinical Summit"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial DS-889"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication WI-318"
+                    ],
+                    "DATO-DXd": [
+                        "Paper YK-862"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Trial SX-471"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Review GS-510"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Publication PE-275"
+                    ],
+                    "I-DXd": [
+                        "Publication ES-198"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review QQ-765"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Virtual Meeting",
+                    "ASCO 2024"
+                ],
+                "competitor": [
+                    "Research Conference"
+                ]
+            }
+        },
+        {
+            "first_name": "David",
+            "last_name": "Wang",
+            "country": "BR",
+            "institution": "AZ Cancer Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "ASCO 2024"
+            ],
+            "cme_event": [
+                "ASCO 2024"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication MD-243"
+                    ],
+                    "SG": [
+                        "Paper JO-172"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial QI-599"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Scientific Symposium"
+                ]
+            }
+        },
+        {
+            "first_name": "David",
+            "last_name": "Smith",
+            "country": "AZ",
+            "institution": "AU University Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Investigator Meeting"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Paper DC-167"
+                    ],
+                    "Ivonescimab": [
+                        "Publication UH-523"
+                    ],
+                    "Sac-TMT": [
+                        "Paper WG-729"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper RG-850"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study VV-651"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Clinical Summit"
+                ],
+                "competitor": [
+                    "Virtual Meeting"
+                ]
+            }
+        },
+        {
+            "first_name": "Priya",
+            "last_name": "Kim",
+            "country": "FR",
+            "institution": "US Oncology Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Regional Symposium",
+                "Scientific Symposium"
+            ],
+            "cme_event": [
+                "WCLC 2024"
+            ],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Study UB-334"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Study DD-161"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study HD-462"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper YM-694"
+                    ],
+                    "SG": [
+                        "Paper TM-726"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study DJ-673"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study TQ-864"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Educational Workshop"
+                ]
+            }
+        },
+        {
+            "first_name": "Maria",
+            "last_name": "Anderson",
+            "country": "ES",
+            "institution": "AZ Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Annual Meeting 2024",
+                "Research Conference",
+                "Scientific Symposium"
+            ],
+            "cme_event": [
+                "Expert Forum",
+                "Educational Workshop"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Regional Symposium",
+                "Research Conference"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication WC-271"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study VM-409"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication OR-662"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Trial WH-259"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "ESMO 2024"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "James",
+            "last_name": "Chen",
+            "country": "FR",
+            "institution": "IN General Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum",
+                "Regional Symposium"
+            ],
+            "cme_event": [
+                "Investigator Meeting",
+                "Regional Symposium"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication ZH-164"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication LA-978"
+                    ],
+                    "Sac-TMT": [
+                        "Review CV-115"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Study GM-537"
+                    ],
+                    "SG": [
+                        "Paper MB-203"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Paper GL-547"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Research Conference",
+                    "Scientific Symposium"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Carlos",
+            "last_name": "Singh",
+            "country": "KR",
+            "institution": "CN Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Strategic Session",
+                "WCLC 2024",
+                "Expert Forum"
+            ],
+            "cme_event": [
+                "ESMO 2024",
+                "Scientific Symposium"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication SF-576"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Review QB-714"
+                    ],
+                    "DATO-DXd": [
+                        "Review HD-563"
+                    ],
+                    "I-DXd": [
+                        "Paper ME-103"
+                    ],
+                    "Ivonescimab": [
+                        "Publication PR-996"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Study CK-918"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper JO-198"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Ali",
+            "last_name": "Zhang",
+            "country": "US",
+            "institution": "UK Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "ESMO 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Review IQ-858"
+                    ],
+                    "SG": [
+                        "Trial XX-774"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study BK-681"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review XY-361"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "ASCO 2024"
+                ],
+                "competitor": [
+                    "ASCO 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Omar",
+            "last_name": "Mueller",
+            "country": "AU",
+            "institution": "CA General Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Virtual Meeting",
+                "Global Congress"
+            ],
+            "cme_event": [
+                "Virtual Meeting",
+                "Clinical Summit"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial BD-992"
+                    ],
+                    "SG": [
+                        "Study RY-400"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication UI-507"
+                    ],
+                    "DATO-DXd": [
+                        "Review SK-258"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study ZO-176"
+                    ],
+                    "DATO-DXd": [
+                        "Review UV-627"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Paper HH-923"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "ASCO 2024",
+                    "Clinical Summit"
+                ]
+            }
+        },
+        {
+            "first_name": "Nina",
+            "last_name": "Martinez",
+            "country": "KR",
+            "institution": "US Medical University",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Annual Meeting 2024",
+                "ESMO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Virtual Meeting",
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper QE-391"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Publication VO-692"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication YL-778"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Expert Forum",
+                    "Regional Symposium"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Emma",
+            "last_name": "Smith",
+            "country": "AZ",
+            "institution": "IT Medical Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "WCLC 2024",
+                "ESMO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Paper PG-874"
+                    ],
+                    "I-DXd": [
+                        "Study KY-757"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial CY-740"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Review WW-554"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Virtual Meeting",
+                    "Annual Meeting 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Ali",
+            "last_name": "Kim",
+            "country": "JP",
+            "institution": "DE General Hospital",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Global Congress"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Educational Workshop",
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study JY-393"
+                    ],
+                    "DATO-DXd": [
+                        "Trial VJ-140"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study WS-673"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Publication UH-596"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Clinical Summit"
+                ],
+                "competitor": [
+                    "ESMO 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "James",
+            "last_name": "Chen",
+            "country": "ES",
+            "institution": "JP Cancer Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Research Conference",
+                "Investigator Meeting",
+                "Virtual Meeting"
+            ],
+            "cme_event": [
+                "Educational Workshop"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review YT-789"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Trial CB-874"
+                    ],
+                    "DATO-DXd": [
+                        "Trial KN-517"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review DU-662"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Clinical Summit",
+                    "Research Conference"
+                ],
+                "competitor": [
+                    "Research Conference"
+                ]
+            }
+        },
+        {
+            "first_name": "Elena",
+            "last_name": "Kumar",
+            "country": "AZ",
+            "institution": "FR Cancer Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Educational Workshop"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Investigator Meeting",
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial RQ-945"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Review NL-317"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study DD-737"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper PV-710"
+                    ],
+                    "SG": [
+                        "Review IC-755"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study OU-407"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication WG-147"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Research Conference",
+                    "Regional Symposium"
+                ]
+            }
+        },
+        {
+            "first_name": "Yuki",
+            "last_name": "Wilson",
+            "country": "US",
+            "institution": "AU Oncology Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [
+                "Scientific Symposium",
+                "Investigator Meeting"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Study MC-242"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial RW-388"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Publication UG-743"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Trial YG-204"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "ASCO 2024",
+                    "Strategic Session"
+                ]
+            }
+        },
+        {
+            "first_name": "Wei",
+            "last_name": "Ivanov",
+            "country": "CN",
+            "institution": "AZ General Hospital",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "ESMO 2024"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper CX-459"
+                    ],
+                    "SG": [
+                        "Paper KZ-853"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study WH-157"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication WF-278"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper FE-509"
+                    ],
+                    "SG": [
+                        "Publication LG-983"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study QY-410"
+                    ],
+                    "Sac-TMT": [
+                        "Study GR-224"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Emma",
+            "last_name": "Ivanov",
+            "country": "DE",
+            "institution": "BR Research Hospital",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Virtual Meeting",
+                "ESMO 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication YL-458"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review RF-173"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Study EO-431"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Review UQ-245"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study MP-160"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "WCLC 2024",
+                    "Regional Symposium"
+                ],
+                "competitor": [
+                    "ASCO 2024",
+                    "Global Congress"
+                ]
+            }
+        },
+        {
+            "first_name": "Lisa",
+            "last_name": "Wang",
+            "country": "CA",
+            "institution": "AU General Hospital",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Educational Workshop",
+                "Global Congress"
+            ],
+            "cme_event": [
+                "ESMO 2024"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper KX-504"
+                    ],
+                    "SG": [
+                        "Trial AO-501"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study XJ-960"
+                    ],
+                    "DATO-DXd": [
+                        "Paper LS-966"
+                    ],
+                    "I-DXd": [
+                        "Trial XW-737"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Review ZG-950"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial LV-998"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication UV-531"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Educational Workshop",
+                    "Global Congress"
+                ],
+                "competitor": [
+                    "ASCO 2024",
+                    "Annual Meeting 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Abdul",
+            "last_name": "Kumar",
+            "country": "CN",
+            "institution": "IN Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Educational Workshop"
+            ],
+            "cme_event": [
+                "Expert Forum"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Global Congress"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": [
+                        "Trial HF-415"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Review HC-686"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Study XR-856"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study RQ-870"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Virtual Meeting"
+                ]
+            }
+        },
+        {
+            "first_name": "Elena",
+            "last_name": "Singh",
+            "country": "DE",
+            "institution": "CA Cancer Research Center",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "Expert Forum",
+                "ESMO 2024",
+                "Educational Workshop"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "ASCO 2024",
+                "Scientific Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper ME-983"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication EW-392"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper PF-454"
+                    ],
+                    "DATO-DXd": [
+                        "Review BV-642"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study CG-862"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Scientific Symposium",
+                    "Annual Meeting 2024"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Maria",
+            "last_name": "Garcia",
+            "country": "KR",
+            "institution": "CN Medical University",
+            "special_interest": "NSCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [
+                "Regional Symposium",
+                "Expert Forum"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Regional Symposium"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication DN-504"
+                    ],
+                    "DATO-DXd": [
+                        "Trial UC-909"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review MT-349"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Study IN-225"
+                    ],
+                    "I-DXd": [
+                        "Study VE-246"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Trial JH-140"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Scientific Symposium",
+                    "Educational Workshop"
+                ],
+                "competitor": [
+                    "Global Congress",
+                    "Clinical Summit"
+                ]
+            }
+        },
+        {
+            "first_name": "Lisa",
+            "last_name": "Abiyev",
+            "country": "CN",
+            "institution": "KR Cancer Institute",
+            "special_interest": "SCLC",
+            "status_filter": "Emerging Leaders",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Global Congress",
+                "ESMO 2024",
+                "Strategic Session"
+            ],
+            "cme_event": [],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Global Congress",
+                "Investigator Meeting"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Study ET-705"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication PK-861"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Review UY-309"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication HO-873"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Educational Workshop"
+                ],
+                "competitor": [
+                    "Expert Forum",
+                    "ASCO 2024"
+                ]
+            }
+        },
+        {
+            "first_name": "Nina",
+            "last_name": "Singh",
+            "country": "ES",
+            "institution": "JP Cancer Institute",
+            "special_interest": "NSCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [
+                "ESMO 2024",
+                "Investigator Meeting",
+                "Annual Meeting 2024"
+            ],
+            "cme_event": [
+                "WCLC 2024"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Paper TY-208"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study UW-460"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Paper EN-951"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Paper UC-209"
+                    ],
+                    "Ivonescimab": [
+                        "Study JK-395"
+                    ],
+                    "Sac-TMT": [
+                        "Study HF-192"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "Research Conference"
+                ]
+            }
+        },
+        {
+            "first_name": "Wei",
+            "last_name": "Brown",
+            "country": "CN",
+            "institution": "IN Research Hospital",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLEC",
+            "1-1s": [],
+            "cme_event": [
+                "Scientific Symposium",
+                "ASCO 2024"
+            ],
+            "conference_feedback_program": false,
+            "gilead_ad_boards": [
+                "Investigator Meeting",
+                "Clinical Summit"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Publication LI-314"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": []
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Publication ZJ-349"
+                    ],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Review ZE-345"
+                    ],
+                    "Sac-TMT": [
+                        "Trial OI-641"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Omar",
+            "last_name": "Garcia",
+            "country": "IN",
+            "institution": "BR General Hospital",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [
+                "Expert Forum",
+                "Scientific Symposium",
+                "ASCO 2024"
+            ],
+            "cme_event": [
+                "Educational Workshop"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Regional Symposium",
+                "WCLC 2024"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication HW-604"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication NJ-821"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Publication SR-640"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [],
+                    "Ivonescimab": [
+                        "Study VX-173"
+                    ],
+                    "Sac-TMT": []
+                }
+            },
+            "educational_event": {
+                "gilead": [
+                    "Expert Forum",
+                    "Investigator Meeting"
+                ],
+                "competitor": []
+            }
+        },
+        {
+            "first_name": "Emma",
+            "last_name": "Mueller",
+            "country": "US",
+            "institution": "DE Oncology Center",
+            "special_interest": "SCLC",
+            "status_filter": "Top 60 EEs",
+            "gl_filter": "GLCC",
+            "1-1s": [],
+            "cme_event": [
+                "ASCO 2024",
+                "Expert Forum"
+            ],
+            "conference_feedback_program": true,
+            "gilead_ad_boards": [
+                "Educational Workshop"
+            ],
+            "clinical_trials": {
+                "gilead": {
+                    "Anti-TGIT": [
+                        "Trial JQ-298"
+                    ],
+                    "SG": [
+                        "Paper DG-263"
+                    ]
+                },
+                "competitor": {
+                    "Anti-TGIT": [
+                        "Paper HJ-883"
+                    ],
+                    "DATO-DXd": [],
+                    "I-DXd": [
+                        "Study FE-219"
+                    ],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Publication MW-597"
+                    ]
+                }
+            },
+            "publications": {
+                "gilead": {
+                    "Anti-TGIT": [],
+                    "SG": []
+                },
+                "competitor": {
+                    "Anti-TGIT": [],
+                    "DATO-DXd": [
+                        "Trial OT-175"
+                    ],
+                    "I-DXd": [],
+                    "Ivonescimab": [],
+                    "Sac-TMT": [
+                        "Study LN-688"
+                    ]
+                }
+            },
+            "educational_event": {
+                "gilead": [],
+                "competitor": [
+                    "ASCO 2024",
+                    "WCLC 2024"
+                ]
+            }
+        }
+    ]
+}

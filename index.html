@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Dashboard</title>
+    <link rel="stylesheet" href="combined-styles.css">
+    <link rel="stylesheet" href="dark-theme-styles.css">
+</head>
+<body>
+    <img src="images/light-header2.png" alt="Header" class="header-image">
+    <div class="dashboard">
+        <!-- Left Sidebar -->
+        <div class="filters-sidebar">
+            <div class="filter-group">
+                <h3>EE Status Filter</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="all-status" name="status" value="all" checked>
+                        <label for="all-status">All</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="emerging-leaders" name="status" value="Emerging Leaders">
+                        <label for="emerging-leaders">Emerging Leaders</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="top-60" name="status" value="Top 60 EEs">
+                        <label for="top-60">Top 60 EEs</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>GL Filter</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="all-gl" name="gl" value="all" checked>
+                        <label for="all-gl">All</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="glcc" name="gl" value="GLCC">
+                        <label for="glcc">GLCC</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="glec" name="gl" value="GLEC">
+                        <label for="glec">GLEC</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Gilead Advisory Programme</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="all-advisory" name="advisory" value="all" checked>
+                        <label for="all-advisory">All</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="conference-feedback" name="advisory" value="conference">
+                        <label for="conference-feedback">Conference Feedback</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="ad-boards" name="advisory" value="adboards">
+                        <label for="ad-boards">Gilead Ad Boards</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Educational Events</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="all-events" name="events" value="all" checked>
+                        <label for="all-events">All</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="gilead-events" name="events" value="gilead">
+                        <label for="gilead-events">Gilead Educational Events</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="competitor-events" name="events" value="competitor">
+                        <label for="competitor-events">Competitor Educational Events</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="cme-events" name="events" value="cme">
+                        <label for="cme-events">CME Events</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>1-1s</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="all-meetings" name="meetings" value="all" checked>
+                        <label for="all-meetings">All</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="one-to-one" name="meetings" value="1-1s">
+                        <label for="one-to-one">One-to-One Meetings</label>
+                    </div>
+                </div>
+            </div>
+
+            <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Top Section -->
+            <div class="top-section">
+                <div class="top-header">
+                    <div class="header-controls">
+                        <div class="results-count">
+                            <span id="results-count">50</span> EEs returned with current filters applied
+                        </div>
+                        <div class="theme-buttons">
+                            <button class="circle-button theme-toggle active" data-theme="light" title="Light Theme">
+                                <img src="images/light-mode-icon.png" alt="Light Mode">
+                            </button>
+                            <button class="circle-button theme-toggle" data-theme="dark" title="Dark Theme">
+                                <img src="images/dark-mode-icon.png" alt="Dark Mode">
+                            </button>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="circle-button" title="Disclaimer">
+                                <img src="images/disclaimer-icon.png" alt="Disclaimer">
+                            </button>
+                            <button class="circle-button view-toggle active" data-view="table" title="List">
+                                <img src="images/list-view-icon.png" alt="List View">
+                            </button>
+                            <button class="circle-button view-toggle" data-view="matrix" title="Segmentation">
+                                <img src="images/segmentation-icon.png" alt="Segmentation">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-filters">
+                    <div class="dropdown-filter">
+                        <label>Gilead CTs</label>
+                        <select id="gilead-cts-filter">
+                            <option value="all">All</option>
+                            <option value="Anti-TGIT">Anti-TGIT</option>
+                            <option value="SG">SG</option>
+                        </select>
+                    </div>
+                    <div class="dropdown-filter">
+                        <label>Competitor CTs</label>
+                        <select id="competitor-cts-filter">
+                            <option value="all">All</option>
+                            <option value="Anti-TGIT">Anti-TGIT</option>
+                            <option value="DATO-DXd">DATO-DXd</option>
+                            <option value="I-DXd">I-DXd</option>
+                            <option value="Ivonescimab">Ivonescimab</option>
+                            <option value="Sac-TMT">Sac-TMT</option>
+                        </select>
+                    </div>
+                    <div class="dropdown-filter">
+                        <label>Competitor Pubs</label>
+                        <select id="competitor-pubs-filter">
+                            <option value="all">All</option>
+                            <option value="Anti-TGIT">Anti-TGIT</option>
+                            <option value="DATO-DXd">DATO-DXd</option>
+                            <option value="I-DXd">I-DXd</option>
+                            <option value="Ivonescimab">Ivonescimab</option>
+                            <option value="Sac-TMT">Sac-TMT</option>
+                        </select>
+                    </div>
+                    <div class="dropdown-filter">
+                        <label>Gilead Pubs</label>
+                        <select id="gilead-pubs-filter">
+                            <option value="all">All</option>
+                            <option value="Anti-TGIT">Anti-TGIT</option>
+                            <option value="SG">SG</option>
+                        </select>
+                    </div>
+                    <div class="dropdown-filter">
+                        <label>Country</label>
+                        <div id="country-filter"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table View -->
+            <div id="table-view" class="view-container active">
+                <div class="table-container">
+                    <div class="table-wrapper">
+                        <table id="people-table">
+                            <thead><tr></tr></thead>
+                            <tbody id="table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matrix View -->
+            <div id="matrix-view" class="view-container">
+                <div class="segmentation-container">
+                    <h2 class="matrix-title">EE Segmentation Matrix</h2>
+                    <div class="matrix-wrapper">
+                        <div class="experience-headers">
+                            <div class="spacer"></div>
+                            <div class="header">LOW</div>
+                            <div class="header">MED</div>
+                            <div class="header">HIGH</div>
+                        </div>
+                        <div class="matrix-grid">
+                            <div class="relevance-headers">
+                                <div class="header">HIGH</div>
+                                <div class="header">MED</div>
+                                <div class="header">LOW</div>
+                                <div class="header">UNKNOWN</div>
+                            </div>
+                            <div class="matrix-cells"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Disclaimer Modal -->
+    <div id="disclaimer-modal" class="modal">
+        <div class="modal-content">
+            <img src="images/gilead-logo.PNG" alt="Gilead Logo" class="modal-logo">
+            <div class="purpose-text">
+                Purpose: To serve as a high-level 'reminder' to the key practices to enforce when engaging with External Experts and an insight into the underlying rationale. Systematize best practices to engage with External Experts based on their expertise to support specific business needs.
+            </div>
+            <ul class="modal-list">
+                <li>The intention behind Expert engagement should be clearly documented & justified based solely on legitimate business needs and not to build a relationship with them, gain access, influence decision-making, or reward past / future prescribing</li>
+                <li>The Expert engagement must not be used as a way to educate or share information with the expert other than as required for delivery of the services</li>
+                <li>To prevent the misperception of a 'full-time Gilead Expert' or of 'targeting' certain experts, ensure there is sufficient diversity in Experts engaged</li>
+                <li>Initial approach must recognize & consider any relevant internal procedures to remain compliant (i.e., local teams, appropriate approval process)</li>
+            </ul>
+            <button id="accept-disclaimer" class="accept-btn">Access Lung EEs</button>
+        </div>
+    </div>
+
+    <script src="combined-script.js"></script>
+</body>
+</html>
